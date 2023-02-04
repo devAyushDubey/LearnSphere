@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragmentclass.Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/intro"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:id="@+id/toogle"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/menu"
+                            android:padding="9dp"
+                            android:layout_weight="1.6"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.4"
+                            android:layout_height="match_parent"
+                            android:text="Hello,"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppins"
+                            android:text="Ayush!"
+                            android:textColor="#000000"
+                            android:textSize="30sp" />
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/search"
+                            android:padding="15dp"
+                            android:layout_weight="1.3"/>
+
+
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="20sp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/grade"
+                        android:textColor="@color/gray"
+                        android:fontFamily="@font/poppins"
+                        android:text="Grade - 12TH D"/>
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/subjects"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/bag"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gurucoinsback"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="50dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/coin"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/header"
+                            android:text="100"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textStyle="bold"
+                            android:textSize="25sp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/headerbutton"
+                        android:text="Redeem your Sphere Coins"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/poppins"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:src="@drawable/surprise"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/subjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mid"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins"
+                        android:text="Subjects"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/allsubjects"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="right"
+                        android:text="All Subjects"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/subject_recycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" />
+
+
+                <ImageView
+                    android:id="@+id/addsubject"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lightbluebackground"
+                    android:src="@drawable/plus"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:id="@+id/mid"
+                android:layout_marginTop="-50dp"
+                android:layout_below="@+id/intro"
+                android:orientation="vertical"
+                android:paddingHorizontal="20px">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/yellowbackground"
+                    android:layout_alignParentBottom="true"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/dviewmodel"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_weight="2"
+                            android:layout_height="match_parent">
+
+
+                        </View>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="AR Zone \nVisualize 3D Models"
+                            android:layout_weight="1"
+                            android:padding="20dp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:textColor="#FFFFFF" />
+
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ar3dmodel"/>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bag"
+                android:layout_marginTop="50dp"
+                android:id="@+id/guruspcl"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="LearnSphere Special"
+                        android:textSize="20sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Show All"
+                        android:gravity="right"
+                        android:textSize="15sp"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/poppins">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp">
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/_recycle"
+                    android:layout_height="220dp"
+                    android:layout_weight="1"
+                    >
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            app:cardCornerRadius="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/customcard"
+                            android:layout_marginTop="10dp"
+                            app:cardBackgroundColor="#DDF9FF"
+                            android:layout_marginRight="20dp"
+                            android:layout_margin="10dp"
+                            android:layout_height="220dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/dinobgrs"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:id="@+id/dinosaur"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/yellowdrag"/>
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/draggame"
+                                    android:layout_weight="2"
+                                    android:fontFamily="@font/poppins"
+                                    android:textStyle="bold"
+                                    android:layout_margin="20dp"
+                                    android:background="@drawable/yellowbackground"
+                                    android:textSize="15sp"
+                                    android:gravity="center"
+                                    android:textColor="#9A0000"
+                                    android:text="Dino's Math"/>
+
+
+
+
+
+
+
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            app:cardCornerRadius="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/birdcard"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="#DDF9FF"
+                            android:layout_marginRight="20dp"
+                            android:layout_height="220dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/background"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:padding="10dp"
+                                    android:src="@drawable/lvbrds"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2"
+                                    android:id="@+id/birdgame"
+                                    android:fontFamily="@font/poppins"
+                                    android:textStyle="bold"
+                                    android:layout_margin="20dp"
+                                    android:background="@drawable/lightbluebackground"
+                                    android:textSize="15sp"
+                                    android:gravity="center"
+                                    android:textColor="#00414A"
+                                    android:text="Fly with CS"/>
+
+
+
+
+
+
+
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/guruspcl"
+                android:layout_marginTop="50dp"
+                android:id="@+id/quiz"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Pending Task's"
+                        android:textSize="20sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Show All"
+                        android:gravity="right"
+                        android:textSize="15sp"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/poppins">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/task_recycle"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/addtask"
+                    android:visibility="visible"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/plus"
+                    android:background="@drawable/lightbluebackground"
+                    android:layout_marginTop="20dp"
+                    />
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

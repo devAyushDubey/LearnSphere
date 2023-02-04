@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/ic_attendance.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/item_selector.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/navigation_bar_background.xml" value="0.2323799795709908" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/round_corner.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_dinoassist.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_entry1.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_entry2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_event_edit.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_final_result.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_flyhigh.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_game.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_gradelists.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_login.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_questions_nanswers.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_time_table.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/allcustomcards_custom_layout.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_admin.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_allcustomcards.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_classroom.xml" value="0.16" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_quiz_info.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/menu/menu.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/activity_maincalendar.xml" value="0.1" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/activity_questions_nanswers.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/custom_question_layout.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/fragment__admin__student__selection.xml" value="0.1" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/fragment_admin.xml" value="0.1" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/fragment_dash.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/fragment_quiz_info.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1735" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_dashboard.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_dinoassist.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_entry1.xml" value="0.2" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_entry2.xml" value="0.264" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_event_edit.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_final_result.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_flyhigh.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_game.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_gradelists.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_login.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_main.xml" value="0.144" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_maincalendar.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_mcard.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_questions_nanswers.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/activity_splash_screen.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/adminhome_custom_layout.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/allcustomcards_custom_layout.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/attendance_recview_item.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/calendar_cell.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/chapter_custom_layout.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/custom_grade_layout.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/event_cell.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment__admin__student__selection.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_academic_info.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_add_assignment.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_add_task.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_addchapter.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_addsubject.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_admin.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_allcustomcards.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_allsubjects.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_attendance.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_classroom.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_dash.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_dmodelview.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_gururewards.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_profile_info.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_quiz_info.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_student.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_studentid.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_user.xml" value="0.1875" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/fragment_viewchapter.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/home_custom_layout.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/layout/task_custom_layout.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/dubey/OneDrive/Documents/GitHub/Vidya_Sagar/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.215" />
+        <entry key="..\:/Users/samir/Downloads/Vidya_Sagar/app/src/main/res/layout/activity_splash_screen.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/samir/Downloads/Vidya_Sagar/app/src/main/res/layout/fragment_dash.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/samir/Downloads/Vidya_Sagar/app/src/main/res/layout/fragment_home.xml" value="0.15307971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
