@@ -101,6 +101,7 @@ public class Dmodelview extends Fragment {
 
         TextView enrollglobe = (TextView) v.findViewById(R.id.enrollglobe);
         TextView enrollsolar = (TextView) v.findViewById(R.id.enrollsolar);
+        TextView enrollhistory = (TextView) v.findViewById(R.id.enrollhistory);
         TextView enrollchemistry = (TextView) v.findViewById(R.id.enrollchemistry);
 
         String api = "http://139.59.95.61:9090";
@@ -112,7 +113,17 @@ public class Dmodelview extends Fragment {
             public void onClick(View v) {
 
 
-                checkPermission();
+                Intent launchIntent = getActivity().getPackageManager().getLaunchIntentForPackage("com.DefaultCompany.ChemistryAR");
+                if (launchIntent != null) {
+                    Toast.makeText(getContext(), "Starting Please wait...", Toast.LENGTH_SHORT).show();
+                    startActivity(launchIntent);//null pointer check in case package name was not found
+                }
+                else
+                {
+                    checkPermission();
+                    Toast.makeText(getContext(), "Downloading Module", Toast.LENGTH_SHORT).show();
+                }
+
 
 //                Intent launchIntent = getActivity().getPackageManager().getLaunchIntentForPackage("com.DefaultCompany.ChemistryAR");
 //                if (launchIntent != null) {
@@ -133,6 +144,23 @@ public class Dmodelview extends Fragment {
             public void onClick(View v) {
 
                 Intent launchIntent = getActivity().getPackageManager().getLaunchIntentForPackage("com.DefaultCompany.SolarSystem");
+                if (launchIntent != null) {
+                    Toast.makeText(getContext(), "Starting Please wait...", Toast.LENGTH_SHORT).show();
+                    startActivity(launchIntent);//null pointer check in case package name was not found
+                }
+                else
+                {
+                    Toast.makeText(getContext(), "Null package name", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
+
+        enrollhistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent launchIntent = getActivity().getPackageManager().getLaunchIntentForPackage("com.DefaultCompany.VRYoga");
                 if (launchIntent != null) {
                     Toast.makeText(getContext(), "Starting Please wait...", Toast.LENGTH_SHORT).show();
                     startActivity(launchIntent);//null pointer check in case package name was not found
