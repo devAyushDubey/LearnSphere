@@ -1,5 +1,7 @@
 # LearnSphere
 
+![learnspherelogo](https://user-images.githubusercontent.com/33064931/216802144-7ee51ed7-2e36-4bb1-9830-9ad94efc8edf.png)
+
 Problem Statement - The pandemic caused further shocks to the system with schools forced to shut down during the lockdown period, and the transition of students and teachers to online teaching-learning. In India, around 250 million students were affected due to school closures at the onset of lockdown induced by COVID-19.
 
 Rural and Urban education has been severely affected because of unavailability of proper education platforms. Many of the Pathshalas, Aanganwaadis and public schools are forced to move towards a non-interactive communication via whatsapp groups. So to overcome this solution we are presenting our education platform - LearnSphere
